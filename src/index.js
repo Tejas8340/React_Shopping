@@ -5,11 +5,13 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import NetflixRegiserComponent from './components/NetflixRegiserComponent';
-import NetFlixIndexComponent from './components/NetFlixIndexComponent';
-import RegisterComponent from './components/RegisterComponent';
-import DataBindingComponent from './components/DataBindingComponent';
-import ShoppingComponent from './components/ShoppingComponent';
+import TwoWayBinding from './components/TwoWayBinding';
+// import NetflixRegiserComponent from './components/NetflixRegiserComponent';
+// import NetFlixIndexComponent from './components/NetFlixIndexComponent';
+// import RegisterComponent from './components/RegisterComponent';
+// import DataBindingComponent from './components/DataBindingComponent';
+// import ShoppingComponent from './components/ShoppingComponent';
+// import EventBindingComponent from './components/EventBindingComponent';
 
 
 
@@ -20,7 +22,9 @@ root.render(
     {/* <NetFlixIndexComponent /> 
      <RegisterComponent />
      <DataBindingComponent /> */}
-     <ShoppingComponent />
+     {/* <ShoppingComponent /> */}
+     {/* <EventBindingComponent /> */}
+     <TwoWayBinding />
   </React.StrictMode>
 );
 
