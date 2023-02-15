@@ -10,7 +10,7 @@ import TwoWayBinding from './components/TwoWayBinding';
 // import NetFlixIndexComponent from './components/NetFlixIndexComponent';
 // import RegisterComponent from './components/RegisterComponent';
 // import DataBindingComponent from './components/DataBindingComponent';
-// import ShoppingComponent from './components/ShoppingComponent';
+import ShoppingComponent from './components/ShoppingComponent';
 // import EventBindingComponent from './components/EventBindingComponent';
 
 
@@ -22,9 +22,9 @@ root.render(
     {/* <NetFlixIndexComponent /> 
      <RegisterComponent />
      <DataBindingComponent /> */}
-     {/* <ShoppingComponent /> */}
+     <ShoppingComponent />
      {/* <EventBindingComponent /> */}
-     <TwoWayBinding />
+     {/* <TwoWayBinding /> */}
   </React.StrictMode>
 );
 
