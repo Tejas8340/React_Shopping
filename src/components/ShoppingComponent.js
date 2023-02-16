@@ -28,7 +28,7 @@ function ShoppingComponent() {
     useEffect(() => {
         LoadCategories();
         LoadProducts('http://fakestoreapi.com/products');
-    }, []);
+    }, [cartItems.length]);
     function handleCategoryChange(e) {
         if (e.target.value == 'all'){
             LoadProducts('http://fakestoreapi.com/products');
@@ -41,7 +41,8 @@ function ShoppingComponent() {
       fetch(`http://fakestoreapi.com/products/${e.target.id}`)
       .then(response=>response.json())
       .then(data=>{
-        setCartItems(data);
+        cartItems.push(data);
+        GetCartItemsCount();
       })
    }
 
@@ -98,6 +99,28 @@ function ShoppingComponent() {
                     <button className="btn btn-danger w-100">
                         <span className="bi bi-cart3"></span> [{itemsCount}]Add to Cart
                     </button>
+                      <table>
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Price</th>
+                                <th>Preview</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {
+                                cartItems.map(item=>
+                                    <tr key={item.id}>
+                                        <td>{item.title}</td>
+                                        <td>{item.price}</td>
+                                        <td>
+                                            <img src={item.image} width="50" height="50" alt="" />
+                                        </td>
+                                    </tr>
+                                    )
+                            }
+                        </tbody>
+                      </table>
                 </aside>
             </section>
         </div>
