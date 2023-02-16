@@ -5,8 +5,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LoginComponent from './components/LoginComponent';
 // import TwoWayBinding from './components/TwoWayBinding';
-import ShoppingClass from './components/ShoppingClass';
+// import ShoppingClass from './components/ShoppingClass';
 // import NetflixRegiserComponent from './components/NetflixRegiserComponent';
 // import NetFlixIndexComponent from './components/NetFlixIndexComponent';
 // import RegisterComponent from './components/RegisterComponent';
@@ -28,7 +29,8 @@ root.render(
      {/* <TwoWayClass /> */}
      {/* <EventBindingComponent /> */}
      {/* <TwoWayBinding /> */}
-     <ShoppingClass />
+     {/* <ShoppingClass /> */}
+     <LoginComponent />
 
   </React.StrictMode>
 );
