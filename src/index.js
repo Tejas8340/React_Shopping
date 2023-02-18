@@ -6,6 +6,8 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoginComponent from './components/LoginComponent';
+import FormComponent from './components/FormComponent';
+import FormikValidation from './components/FormikValidation';
 // import TwoWayBinding from './components/TwoWayBinding';
 // import ShoppingClass from './components/ShoppingClass';
 // import NetflixRegiserComponent from './components/NetflixRegiserComponent';
@@ -30,7 +32,9 @@ root.render(
      {/* <EventBindingComponent /> */}
      {/* <TwoWayBinding /> */}
      {/* <ShoppingClass /> */}
-     <LoginComponent />
+     {/* <LoginComponent /> */}
+     {/* <FormComponent /> */}
+     <FormikValidation />
 
   </React.StrictMode>
 );
