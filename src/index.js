@@ -8,6 +8,8 @@ import reportWebVitals from './reportWebVitals';
 import LoginComponent from './components/LoginComponent';
 import FormComponent from './components/FormComponent';
 import FormikValidation from './components/FormikValidation';
+import YupValidation from './components/YupValidation';
+import YupValidationComponent from './components/YupValidataionComponent';
 // import TwoWayBinding from './components/TwoWayBinding';
 // import ShoppingClass from './components/ShoppingClass';
 // import NetflixRegiserComponent from './components/NetflixRegiserComponent';
@@ -34,7 +36,9 @@ root.render(
      {/* <ShoppingClass /> */}
      {/* <LoginComponent /> */}
      {/* <FormComponent /> */}
-     <FormikValidation />
+     {/* <FormikValidation /> */}
+     {/* <YupValidation /> */}
+     <YupValidationComponent />
 
   </React.StrictMode>
 );
