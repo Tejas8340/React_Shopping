@@ -10,6 +10,8 @@ import FormComponent from './components/FormComponent';
 import FormikValidation from './components/FormikValidation';
 import YupValidation from './components/YupValidation';
 import YupValidationComponent from './components/YupValidataionComponent';
+import LifeCycle from './components/LifeCycle';
+import ReactHooks from './components/ReactHooks';
 // import TwoWayBinding from './components/TwoWayBinding';
 // import ShoppingClass from './components/ShoppingClass';
 // import NetflixRegiserComponent from './components/NetflixRegiserComponent';
@@ -38,7 +40,9 @@ root.render(
      {/* <FormComponent /> */}
      {/* <FormikValidation /> */}
      {/* <YupValidation /> */}
-     <YupValidationComponent />
+     {/* <YupValidationComponent /> */}
+     {/* <LifeCycle /> */}
+     <ReactHooks />
 
   </React.StrictMode>
 );
