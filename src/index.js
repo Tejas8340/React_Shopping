@@ -12,6 +12,7 @@ import YupValidation from './components/YupValidation';
 import YupValidationComponent from './components/YupValidataionComponent';
 import LifeCycle from './components/LifeCycle';
 import ReactHooks from './components/ReactHooks';
+import Context from './components/Context';
 // import TwoWayBinding from './components/TwoWayBinding';
 // import ShoppingClass from './components/ShoppingClass';
 // import NetflixRegiserComponent from './components/NetflixRegiserComponent';
@@ -42,7 +43,8 @@ root.render(
      {/* <YupValidation /> */}
      {/* <YupValidationComponent /> */}
      {/* <LifeCycle /> */}
-     <ReactHooks />
+     {/* <ReactHooks /> */}
+     < Context />
 
   </React.StrictMode>
 );
