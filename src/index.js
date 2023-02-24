@@ -22,6 +22,9 @@ import Context from './components/Context';
 //import ShoppingComponent from './components/ShoppingComponent';
 // import TwoWayClass from './components/TwoWayClass';
 // import EventBindingComponent from './components/EventBindingComponent';
+import {CookiesProvider} from 'react-cookie';
+import UserLogin from './components/UserLogin';
+import Reducer from './components/Reducer';
 
 
 
@@ -44,7 +47,11 @@ root.render(
      {/* <YupValidationComponent /> */}
      {/* <LifeCycle /> */}
      {/* <ReactHooks /> */}
-     < Context />
+     {/* < Context /> */}
+     {/* <CookiesProvider>
+        <UserLogin />
+     </CookiesProvider> */}
+     <Reducer />
 
   </React.StrictMode>
 );
